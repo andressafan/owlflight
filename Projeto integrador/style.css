@@ -1,0 +1,40 @@
+
+.inner-div{ margin: 94px;
+
+}
+
+.text{
+    color: #000;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;}
+
+#coruja{
+    width: 428px;
+    height: 414px;
+}
+#div2{
+    width: 428px;
+    height: 414px;
+    top: 180px;
+    left: 913px;
+    flex-shrink: 0;
+}
+
+.d-asas-ao-seu-negcio-com-owl-flight{
+    color: #FFF;
+    flex-shrink: 0;
+    font-size: 35px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 400;
+    height: 77.004px;
+    line-height: 40px;
+    width: 407.922px;
+    
+}
+
+
+
