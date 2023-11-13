@@ -1,40 +1,160 @@
+.tela-login,
+.tela-login * {
+  box-sizing: border-box;
+  margin: auto;
+}
+a{
+    text-decoration: none;
+    color: #006aff;
+}
+.row{
+    margin: auto;
+    margin-top: 6rem;
+}
+.container{
+    background-color: aqua;
+}
+.frame-2{
+    margin: auto;
+    background-color: #b7c5da;
+}
+.tela-login {
+    background: #b7c5da;
+    width: 60%; /* Ajuste conforme necessário */
+    height: 63.5rem; /* Ajuste conforme necessário */
+    position: relative;
+    overflow: hidden;
+  }
 
-.inner-div{ margin: 94px;
-
+  .rectangle-8 {
+    background: #08244C;
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    left: 60rem;
+    top: 0px;
+  }
+  .frame-2 {
+    width: 35%;
+    height: 70%;
+    position: absolute;
+    left: 5rem;
+    top: 15rem;
+    overflow: hidden;
+  }
+.rectangle-7 {
+  background: #d9d9d9;
+  border-radius: 10px;
+  width: 118px;
+  height: 56px;
+  position: absolute;
+  left: 159px;
+  top: 298px;
+}
+.entrar {
+  color: #000000;
+  text-align: left;
+  font: 500 20px "Poppins", sans-serif;
+  position: absolute;
+  left: 188px;
+  top: 311px;
+}
+.rectangle-4 {
+  background: #d9d9d9;
+  border-radius: 10px;
+  width: 320px;
+  height: 40px;
+  position: absolute;
+  left: 58px;
+  top: 58px;
+}
+.e-mail {
+  color: #000000;
+  text-align: left;
+  font: 500 20px "Poppins", sans-serif;
+  position: absolute;
+  left: 58px;
+  top: 13px;
+}
+.rectangle-5 {
+  background: #d9d9d9;
+  border-radius: 10px;
+  width: 320px;
+  height: 40px;
+  position: absolute;
+  left: 58px;
+  top: 158px;
+}
+.senha {
+  color: #000000;
+  text-align: left;
+  font: 500 20px "Poppins", sans-serif;
+  position: absolute;
+  left: 58px;
+  top: 113px;
+}
+.esqueceu-a-senha {
+  color: #000000;
+  text-align: left;
+  font: 500 20px "Poppins", sans-serif;
+  position: absolute;
+  left: 183px;
+  top: 233px;
+}
+.n-o-tem-um-cadastro-cadastre-se-aqui {
+  text-align: left;
+  font: 500 20px "Poppins", sans-serif;
+  position: absolute;
+  left: 58px;
+  top: 402px;
+}
+.n-o-tem-um-cadastro-cadastre-se-aqui-span {
+  color: #000000;
+  font: 500 20px "Poppins", sans-serif;
 }
 
-.text{
-    color: #000;
-    font-family: Poppins;
-    font-size: 1.2rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;}
-
-#coruja{
-    width: 428px;
-    height: 414px;
+.login {
+  color: #000000;
+  text-align: left;
+  font: 700 36px "Inter", sans-serif;
+  position: absolute;
+  left: 133px;
+  top: 131px;
+  width: 109px;
+  height: 46px;
 }
-#div2{
-    width: 428px;
-    height: 414px;
-    top: 180px;
-    left: 913px;
-    flex-shrink: 0;
+.ellipse-1 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 76px;
+  height: 76px;
+  position: absolute;
+  left: 7rem;
+  top: 50rem;
 }
-
-.d-asas-ao-seu-negcio-com-owl-flight{
-    color: #FFF;
-    flex-shrink: 0;
-    font-size: 35px;
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: 400;
-    height: 77.004px;
-    line-height: 40px;
-    width: 407.922px;
-    
+.arrow-drop-down {
+  position: absolute;
+  left: 2.7rem;
+  top: 1.5rem;
+  transform: translate(-20.44px, 0px);
+  overflow: visible;
 }
 
 
-
+.d-asas-ao-seu-neg-cio-com-owl-flight {
+  color: #ffffff;
+  text-align: left;
+  font: 400 35px/40px "DM Sans", sans-serif;
+  position: absolute;
+  left: 6rem;
+  top: 30rem;
+  width: 407.92px;
+  height: 77px;
+}
+.photo {
+    margin-top: 6rem;
+    margin-left: 2rem;
+}
+img{
+    filter: brightness(400%);
+}
