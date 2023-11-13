@@ -3,42 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css"> <!-- Certifique-se de que o link para seu arquivo CSS está abaixo do link para o Bootstrap -->
-    <title>Página Login</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Adicione os links do Bootstrap abaixo -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd5PDsGwRrqp1FfrF8DaX5EoSf4dUq2H1zOtov5BfqCBA0AA+2cXef70c2"
+    crossorigin="anonymous">
+    <title>Document</title>
 </head>
 <body>
- 
-<div class="container">
-    <div class="row">
-        <div class="col-md-8 bg-white">
-            <div class="inner-div">
-                <div><h2>Login</h2></div>
-                <form action="" method="POST">
-                    <div><label for="e-mail">E-mail:</label></div>
-                    <div><input type="text" id="e-mail" name="e-mail" required></div>
-                    <div><label for="senha">Senha:</label></div>
-                    <div><input type="password" id="senha" name="senha" required></div> <!-- Alterei o tipo de input para "password" para ocultar a senha -->
-                    <div><p class="text">Esqueceu sua senha?</p></div>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-                </form>
-                <div class="text">
-                    <p>Não tem um cadastro? Cadastre-se aqui</p>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 tela-login">
+                <div class="frame-2">
+                    <button class="rectangle-7"></button>
+                    <div class="entrar"><a href="google.com.br">Entrar</a></div>
+                    <div class="rectangle-4"></div>
+                    <div><label for="e-mail" class="e-mail">E-mail:</label></div>
+                    <div><input type="text" id="e-mail" name="e-mail" required class="rectangle-4"></div>
+                    <div class="senha">Senha</div>
+                    <div><input type="password" id="senha" name="senha" required class="rectangle-5"></div>
+                    <div class="esqueceu-a-senha"><a href="google.com.br">Esqueceu a senha?</a></div>
+                    <div class="n-o-tem-um-cadastro-cadastre-se-aqui">
+                        <p class="n-o-tem-um-cadastro-cadastre-se-aqui-span">Não tem um cadastro? <br/>Cadastre-se <a href="google.com.br">aqui</a></p>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="col-md-4 bg-primary">
-            <div id="group-5">
-                <img src="20231105_165227_0000-PhotoRoom-removebg-preview (2).png" alt="coruja" id="coruja">
-                <div class="d-asas-ao-seu-negcio-com-owl-flight">
-                    <p>Dê asas ao seu negócio com OwlFlight</p>
+                <div class="login">Login</div>
+                <a href="google.com.br"><div class="ellipse-1">
+                    <svg class="arrow-drop-down" width="21" height="26" viewBox="0 0 21 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.172229 13.0514L20.5009 0.00154339L20.803 13.9107L20.4756 25.5649L0.172229 13.0514Z" fill="#08244C"/>
+                    </svg>
+                </div></a>
+                
+                <div class="rectangle-8">
+                    <img class="photo" src="af997222aa197959a9d48c35bcc6e591.png" />
+                    <div class="d-asas-ao-seu-neg-cio-com-owl-flight">
+                        Dê asas ao seu negócio com OwlFlight
+                    </div>
                 </div>
+                
+                
             </div>
         </div>
     </div>
-</div>
 
-<!-- Adicione o link para o arquivo JavaScript do Bootstrap abaixo do Bootstrap CSS, se necessário -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Adicione o script do Bootstrap abaixo -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Mrdj81DbdkdMSiSHJdmeEnSZP0VZKp5+8INirLXhPeD4z7C3g1G/urS6XONQKuSeH"
+    crossorigin="anonymous"></script>
 </body>
 </html>
