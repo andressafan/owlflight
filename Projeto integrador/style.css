@@ -1,112 +1,98 @@
-.tela-login,
-.tela-login * {
-  box-sizing: border-box;
-  margin: auto;
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
 }
+
 a{
     text-decoration: none;
     color: #006aff;
 }
-.row{
-    margin: auto;
-    margin-top: 6rem;
-}
-.container{
-    background-color: aqua;
-}
+
 .frame-2{
     margin: auto;
     background-color: #b7c5da;
 }
 .tela-login {
-    background: #b7c5da;
-    width: 60%; /* Ajuste conforme necessário */
-    height: 63.5rem; /* Ajuste conforme necessário */
-    position: relative;
-    overflow: hidden;
+    background: #2fb828;
+    margin: auto;
+    padding: 0%;
+    display: flex;
+    width: 100%;
+    height: 100%;
+
   }
 
-  .rectangle-8 {
-    background: #08244C;
+.rectangle-8 {
     width: 40%;
-    height: 100%;
-    position: absolute;
-    left: 60rem;
-    top: 0px;
+    background: #08244C;
+
   }
   .frame-2 {
-    width: 35%;
+    width: 30%;
     height: 70%;
-    position: absolute;
-    left: 5rem;
-    top: 15rem;
-    overflow: hidden;
+    margin: auto;
+
+
   }
-.rectangle-7 {
+.entrar {
   background: #d9d9d9;
   border-radius: 10px;
-  width: 118px;
-  height: 56px;
-  position: absolute;
-  left: 159px;
-  top: 298px;
+
 }
-.entrar {
+.rectangle-7 {
   color: #000000;
   text-align: left;
   font: 500 20px "Poppins", sans-serif;
-  position: absolute;
-  left: 188px;
-  top: 311px;
+  display: flex;
+
+  justify-content: center;
 }
 .rectangle-4 {
   background: #d9d9d9;
   border-radius: 10px;
-  width: 320px;
-  height: 40px;
-  position: absolute;
-  left: 58px;
-  top: 58px;
+
+  border: none;
+}
+#rec-4, #pass{
+  display: flex;
+  justify-content: center;
 }
 .e-mail {
   color: #000000;
   text-align: left;
   font: 500 20px "Poppins", sans-serif;
-  position: absolute;
-  left: 58px;
-  top: 13px;
+}
+#e-mail{
+  margin-top: 1rem;
 }
 .rectangle-5 {
   background: #d9d9d9;
+  border: none;
   border-radius: 10px;
-  width: 320px;
-  height: 40px;
-  position: absolute;
-  left: 58px;
-  top: 158px;
+
 }
 .senha {
   color: #000000;
   text-align: left;
   font: 500 20px "Poppins", sans-serif;
-  position: absolute;
-  left: 58px;
-  top: 113px;
+
 }
+#key{
+  margin-bottom: 1rem;
+}
+
 .esqueceu-a-senha {
   color: #000000;
-  text-align: left;
+  text-align: end;
   font: 500 20px "Poppins", sans-serif;
-  position: absolute;
-  left: 183px;
-  top: 233px;
+
 }
 .n-o-tem-um-cadastro-cadastre-se-aqui {
   text-align: left;
   font: 500 20px "Poppins", sans-serif;
-  position: absolute;
-  left: 58px;
-  top: 402px;
+
 }
 .n-o-tem-um-cadastro-cadastre-se-aqui-span {
   color: #000000;
@@ -117,27 +103,18 @@ a{
   color: #000000;
   text-align: left;
   font: 700 36px "Inter", sans-serif;
-  position: absolute;
-  left: 133px;
-  top: 131px;
-  width: 109px;
-  height: 46px;
+
 }
 .ellipse-1 {
   background: #d9d9d9;
   border-radius: 50%;
-  width: 76px;
-  height: 76px;
-  position: absolute;
-  left: 7rem;
-  top: 50rem;
+    width: 3rem ;
+    height: 3rem;
+    display: flexbox;
+    justify-content: center;
 }
 .arrow-drop-down {
-  position: absolute;
-  left: 2.7rem;
-  top: 1.5rem;
-  transform: translate(-20.44px, 0px);
-  overflow: visible;
+
 }
 
 
@@ -145,16 +122,20 @@ a{
   color: #ffffff;
   text-align: left;
   font: 400 35px/40px "DM Sans", sans-serif;
-  position: absolute;
-  left: 6rem;
-  top: 30rem;
-  width: 407.92px;
-  height: 77px;
+
+
 }
 .photo {
-    margin-top: 6rem;
-    margin-left: 2rem;
+    margin: auto;
+    filter: brightness(100%);
+    width: 85%;
+    height: 70%;
 }
-img{
-    filter: brightness(400%);
+.form{
+  background-color: #08244C;
+  margin: 2rem 3rem 5rem 3rem;
+
+}
+.slogan{
+  margin: 5rem;
 }
